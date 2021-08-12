@@ -1,0 +1,20 @@
+$primary-color: #2c71aa;
+$text-color: #555;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Dosis", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: $text-color;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
