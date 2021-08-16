@@ -1,0 +1,9 @@
+@import "../../../styles/variable";
+
+.primaryBtn {
+  width: 100%;
+  background-color: $primary-btn;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
