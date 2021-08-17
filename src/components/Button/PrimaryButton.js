@@ -1,10 +1,10 @@
 import React from "react";
-import "./ButtonStyle.scss";
+import "./buttonStyle.scss";
 
 function PrimaryButton(props) {
-  const { label, className, type } = props;
+  const { label, className, type, ...others } = props;
   return (
-    <button type={type} className={`${className} primaryBtn`}>
+    <button type={type} className={`${className} primaryBtn`} {...others}>
       {label}
     </button>
   );

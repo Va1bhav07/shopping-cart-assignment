@@ -9,7 +9,7 @@ function Header() {
         <img src={logo} alt="logo" width="175px" />
         <nav className="main-header-nav">
           <div className="main-header-nav-links">
-            <Link to="/home">Home</Link>
+            <Link to="/">Home</Link>
             <Link to="/products">Products</Link>
           </div>
           <div className="header-cart">

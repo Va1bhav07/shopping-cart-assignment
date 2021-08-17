@@ -1,0 +1,38 @@
+@import "../../../styles/variable";
+
+.main-categories {
+  &-items {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    // box-shadow: 5px 5px 20px;
+    box-shadow: 0px 15px 10px -15px #111;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+  }
+  &-items:nth-child(even) {
+    img {
+      order: 1;
+    }
+  }
+  &-items:last-child {
+    box-shadow: none;
+  }
+  &-text {
+    flex: 1;
+    h2 {
+      margin-bottom: 30px;
+      color: #000;
+    }
+    p {
+      margin-bottom: 30px;
+      color: #000;
+      font-weight: 600;
+      font-size: $font14;
+    }
+  }
+  &-btn {
+    padding: 15px;
+    width: auto;
+  }
+}

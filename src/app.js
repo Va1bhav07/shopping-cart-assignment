@@ -25,8 +25,8 @@ function App() {
     <Router>
       <Switch>
         <PublicRoute exact path="/" component={Home} />
-        <PublicRoute exact path="/login" component={Login} />
-        <PublicRoute exact path="/signup" component={SignUp} />
+        <PublicRoute exact path="/signin" component={Login} />
+        <PublicRoute exact path="/register" component={SignUp} />
       </Switch>
     </Router>
   );

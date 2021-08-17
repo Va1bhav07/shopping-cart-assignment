@@ -8,10 +8,11 @@ function TextField(props) {
         type={type || "text"}
         className="form__field"
         name={name}
-        value={value}
+        value={value || ""}
         onChange={onChange}
         placeholder={label}
         required={required || false}
+        autoComplete={"on"}
       />
       <label className="form__label">{label}</label>
     </div>
