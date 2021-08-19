@@ -1,0 +1,19 @@
+@import "../../../styles/variable";
+
+.main-sideFilter {
+  background-color: $secondary-color;
+  flex-basis: 25%;
+  font-size: $font15;
+  &-active {
+    background-color: $hover;
+  }
+  li {
+    padding: 15px 30px;
+    border-bottom: 1px solid $separator;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  li:hover {
+    background-color: $hover;
+  }
+}

@@ -5,12 +5,12 @@ import { getBanner, getCategories } from "../../../Store/Actions/homeActions";
 
 function Home(props) {
   const { getBanner, getCategories, bannerData, categoriesData } = props;
-  console.log(props);
+
   useEffect(() => {
     bannerData?.length || getBanner();
     categoriesData?.length || getCategories();
   }, []);
-  console.log(props);
+
   return (
     <div className="container">
       This is Home

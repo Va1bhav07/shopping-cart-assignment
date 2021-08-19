@@ -21,7 +21,9 @@ export const homeReducer = (state = initState, action) => {
     case Actions.GET_CATEGORIES_SUCCESS:
       return {
         ...state,
-        categoriesData: action.payload.data,
+        categoriesData: action.payload.data
+          ?.sort((a, b) => a.order - b.order)
+          ?.filter((item) => item.enabled),
       };
     case Actions.GET_CATEGORIES_FAIL:
       return {

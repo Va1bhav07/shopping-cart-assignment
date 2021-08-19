@@ -18,7 +18,19 @@ a:link {
   text-decoration: none;
 }
 
+a:visited {
+  color: unset;
+}
+
+ul {
+  list-style: none;
+}
+
+h3 {
+  color: #000;
+}
+
 .container {
-  width: 70%;
+  width: 75%;
   margin: 0 auto;
 }

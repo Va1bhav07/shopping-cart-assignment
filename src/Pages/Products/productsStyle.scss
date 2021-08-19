@@ -1,0 +1,14 @@
+@import "../../../styles/variable";
+
+.main-products {
+  display: flex;
+  gap: 20px;
+  &-list {
+    flex-basis: 75%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 20px;
+  }
+}
